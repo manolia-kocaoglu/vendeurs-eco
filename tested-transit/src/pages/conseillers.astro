@@ -1,0 +1,68 @@
+---
+import { vendeurs } from '../../data/vendeurs';
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos conseillers — Ecocuisine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      :root {
+        --cream: #FAF7F2;
+        --bark: #3D2B1A;
+        --bark-light: #6B4C35;
+        --sage: #7A9E7E;
+        --gold: #C9943A;
+        --gold-light: #E8C97A;
+        --stone: #8E8078;
+        --stone-light: #D4CCC4;
+      }
+      body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--cream); color: var(--bark); -webkit-font-smoothing: antialiased; }
+      header { background: var(--bark); padding: 20px 24px; display: flex; align-items: center; justify-content: center; }
+      .brand { text-decoration: none; font-size: 22px; font-weight: 500; }
+      .brand-eco { color: var(--sage); }
+      .brand-cuisine { color: var(--gold-light); }
+      main { max-width: 900px; margin: 0 auto; padding: 64px 24px; }
+      h1 { font-family: 'Playfair Display', serif; font-size: 42px; font-weight: 600; margin-bottom: 8px; }
+      h1 em { font-style: italic; color: var(--bark-light); }
+      .subtitle { color: var(--stone); font-size: 16px; font-weight: 300; margin-bottom: 48px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+      .card { background: white; border-radius: 16px; overflow: hidden; border: 1px solid var(--stone-light); text-decoration: none; color: inherit; display: block; transition: transform 0.2s, box-shadow 0.2s; }
+      .card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(61,43,26,0.1); }
+      .card-img { width: 100%; height: 220px; object-fit: cover; display: block; }
+      .card-body { padding: 24px; }
+      .card-name { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+      .card-titre { font-size: 14px; color: var(--stone); font-weight: 300; margin-bottom: 12px; }
+      .card-zone { font-size: 13px; color: var(--sage); font-weight: 500; }
+      .card-cta { display: inline-block; margin-top: 16px; font-size: 13px; color: var(--gold); font-weight: 500; text-decoration: none; }
+    </style>
+    <header>
+      <a href="/" class="brand"><span class="brand-eco">eco</span><span class="brand-cuisine">cuisine</span></a>
+    </header>
+    <main>
+      <h1>Nos <em>conseillers</em></h1>
+      <p class="subtitle">Scannez le QR code ou choisissez votre conseiller ci-dessous.</p>
+      <div class="grid">
+        {vendeurs.map((v) => (
+          <a href={`/vendeur/${v.slug}`} class="card">
+            <img src={v.photo} alt={`${v.prenom} ${v.nom}`} class="card-img" />
+            <div class="card-body">
+              <p class="card-name">{v.prenom} {v.nom}</p>
+              <p class="card-titre">{v.titre}</p>
+              <p class="card-zone">📍 {v.zone}</p>
+              <span class="card-cta">Voir la fiche →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </main>
+  </body>
+</html>
