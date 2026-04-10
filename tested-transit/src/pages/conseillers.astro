@@ -52,7 +52,7 @@ import { vendeurs } from '../../data/vendeurs';
       <p class="subtitle">Scannez le QR code ou choisissez votre conseiller ci-dessous.</p>
       <div class="grid">
         {vendeurs.map((v) => (
-          <a href={`/vendeur/${v.slug}`} class="card">
+          <a href={`/vendeurs/${v.slug}`} class="card">
             <img src={v.photo} alt={`${v.prenom} ${v.nom}`} class="card-img" />
             <div class="card-body">
               <p class="card-name">{v.prenom} {v.nom}</p>

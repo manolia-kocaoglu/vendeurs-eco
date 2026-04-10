@@ -36,16 +36,16 @@ export interface Avis {
       slug: "marie-dupont",
       prenom: "Marie",
       nom: "Dupont",
-      titre: "Conceptrice cuisine & salle de bain",
+      titre: "Conceptrice cuisine",
       photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80",
-      anciennete: 8,
+      anciennete: 10,
       depuis: 2016,
       description:
         "Passionnée par l'aménagement intérieur depuis plus de 15 ans, Marie accompagne chaque client avec une attention particulière aux détails et une écoute totale. Elle transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
-      specialites: ["Cuisine ouverte", "Cuisines sur-mesure", "Petits espaces", "Style scandinave"],
+      specialites: ["Cuisine ouverte", "Cuisines sur-mesure", "Petits espaces", "Rénovation de cuisines anciennes"],
       telephone: "+33 6 12 34 56 78",
       email: "marie.dupont@ecocuisine.fr",
-      zone: "Brest & Finistère Nord",
+      zone: "Andelnans",
       projets: [
         {
           titre: "Cuisine ouverte en chêne massif",
@@ -91,7 +91,7 @@ export interface Avis {
         { label: "Projets réalisés", valeur: "200+" },
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "Années d'expérience", valeur: "8 ans" },
+        { label: "Années d'expérience", valeur: "10 ans" },
       ],
     },
     {
