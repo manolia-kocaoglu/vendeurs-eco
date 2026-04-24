@@ -34,9 +34,9 @@ export interface Avis {
   export const vendeurs: Vendeur[] = [
     {
       slug: "marie-dupont",
-      prenom: "Marie",
-      nom: "Dupont",
-      titre: "Conceptrice cuisine",
+      prenom: "Julien",
+      nom: "HACQUARD",
+      titre: "Chef des ventes",
       photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80",
       anciennete: 10,
       depuis: 2016,
@@ -44,7 +44,7 @@ export interface Avis {
         "Passionnée par l'aménagement intérieur depuis plus de 15 ans, Marie accompagne chaque client avec une attention particulière aux détails et une écoute totale. Elle transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
       specialites: ["Cuisine ouverte", "Cuisines sur-mesure", "Petits espaces", "Rénovation de cuisines anciennes"],
       telephone: "+33 6 12 34 56 78",
-      email: "marie.dupont@ecocuisine.fr",
+      email: "j.hacquard@ecocuisine-belfort.fr",
       zone: "Andelnans",
       projets: [
         {
