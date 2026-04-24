@@ -33,17 +33,17 @@ export interface Avis {
   
   export const vendeurs: Vendeur[] = [
     {
-      slug: "marie-dupont",
+      slug: "julien-hacquard",
       prenom: "Julien",
       nom: "HACQUARD",
       titre: "Chef des ventes",
       photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80",
-      anciennete: 10,
-      depuis: 2016,
+      anciennete: 7,
+      depuis: 2019,
       description:
-        "Passionnée par l'aménagement intérieur depuis plus de 15 ans, Marie accompagne chaque client avec une attention particulière aux détails et une écoute totale. Elle transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
+        "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
       specialites: ["Cuisine ouverte", "Cuisines sur-mesure", "Petits espaces", "Rénovation de cuisines anciennes"],
-      telephone: "+33 6 12 34 56 78",
+      telephone: "+33 3 39 53 06 60",
       email: "j.hacquard@ecocuisine-belfort.fr",
       zone: "Andelnans",
       projets: [
@@ -68,22 +68,24 @@ export interface Avis {
       ],
       avis: [
         {
-          auteur: "Sophie M.",
+          auteur: "Hakiki Kimou",
           note: 5,
-          texte: "Marie a complètement transformé notre cuisine. Elle a su comprendre exactement ce que nous voulions, même quand nous n'arrivions pas à l'exprimer ! Le résultat dépasse toutes nos espérances.",
-          date: "Mars 2024",
+          texte: `Une première visite pour moi dans ce magasin, un accueil chaleureux de l'équipe, j'ai été accueillie par le responsable JULIEN qui a été à l'écoute, disponible et bienveillant. Il fut de bon conseil.
+Un grand merci pour les techniciens Bruno et Christopher pour leur professionnalisme, un travail soigné, leur bonne humeur et leur gentillesse. Ils sont aussi de bon conseil.
+Merci à Eco cuisine d'Andelnans.`,
+          date: "",
         },
         {
-          auteur: "Jean-Pierre L.",
+          auteur: "Berthon Jm",
           note: 5,
-          texte: "Professionnelle, à l'écoute, créative. Marie a su proposer des solutions intelligentes pour notre petit espace. Nous recommandons vivement !",
-          date: "Janvier 2024",
+          texte: "Très bonne écoute de Julien, il sait proposer, trouver des solutions sans jamais dépasser les budgets impartis. Un vrai pro qui connait le monde de la cuisine. Derrière, une structure réactive, des poseurs de qualité donc bonne voir très bonne prestation dans son ensemble. Nous sommes heureux du résultat équivalent aux vues 3D transmises. Au plaisir de travailler sur d'autres projets.",
+          date: "",
         },
         {
-          auteur: "Camille R.",
+          auteur: "Ed'",
           note: 5,
-          texte: "Un vrai coup de cœur pour le travail de Marie. Elle nous a guidés dans nos choix avec beaucoup de patience et de bonne humeur. Merci !",
-          date: "Novembre 2023",
+          texte: `Très bon cuisiniste. Julien, le commercial est très sympathique. De la conception à la livraison, le suivi est très bon. A l'écoute de la moindre des questions ou demande. Très bon travail des poseurs. La pose est soignée. Bruno et Christopher font du bon travail et sont bien sympathiques également. Bonne expérience chez Ecocuisine Andelnans.`,
+          date: "",
         },
       ],
       certifications: ["Qualibat RGE", "Cuisiniste Expert Ecocuisine", "Formation Blum Legrabox"],
@@ -91,11 +93,11 @@ export interface Avis {
         { label: "Projets réalisés", valeur: "200+" },
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "Années d'expérience", valeur: "10 ans" },
+        { label: "Années d'expérience", valeur: "7 ans" },
       ],
     },
     {
-      slug: "thomas-bernard",
+      slug: "aoued-baghdadia",
       prenom: "Thomas",
       nom: "Bernard",
       titre: "Expert cuisine & aménagement intérieur",
