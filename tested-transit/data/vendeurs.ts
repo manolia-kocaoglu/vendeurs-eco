@@ -42,7 +42,7 @@ export interface Avis {
       depuis: 2019,
       description:
         "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
-      specialites: ["Cuisine ouverte", "Cuisines sur-mesure", "Petits espaces", "Rénovation de cuisines anciennes"],
+      specialites: ["Jour de repos le mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "j.hacquard@ecocuisine-belfort.fr",
       zone: "Andelnans",
@@ -98,18 +98,18 @@ Merci à Eco cuisine d'Andelnans.`,
     },
     {
       slug: "aoued-baghdadia",
-      prenom: "Thomas",
-      nom: "Bernard",
-      titre: "Expert cuisine & aménagement intérieur",
+      prenom: "Aoued",
+      nom: "BAGHDADIA",
+      titre: "Concepteur vendeur",
       photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
-      anciennete: 12,
-      depuis: 2012,
+      anciennete: 2,
+      depuis: 2024,
       description:
         "Menuisier de formation, Thomas a rejoint Ecocuisine il y a 12 ans pour mettre son savoir-faire artisanal au service de projets modernes. Sa connaissance approfondie des matériaux lui permet de conseiller ses clients avec précision et honnêteté. Il est particulièrement reconnu pour ses réalisations dans les maisons contemporaines et les lofts.",
-      specialites: ["Style industriel", "Bois & matières naturelles", "Grands espaces", "Rénovation"],
-      telephone: "+33 6 98 76 54 32",
-      email: "thomas.bernard@ecocuisine.fr",
-      zone: "Brest & Presqu'île de Crozon",
+      specialites: ["Jour de repos le lundi"],
+      telephone: "+33 3 39 53 06 60",
+      email: "a.baghdadia@ecocuisine-belfort.fr",
+      zone: "Andelnans",
       projets: [
         {
           titre: "Loft industriel Brest",
@@ -131,31 +131,280 @@ Merci à Eco cuisine d'Andelnans.`,
         },
       ],
       avis: [
+        
         {
-          auteur: "Laurent B.",
+          auteur: "Metou Vinez",
           note: 5,
-          texte: "Thomas connaît son métier sur le bout des doigts. Il nous a conseillés avec pertinence sur les matériaux et le résultat est absolument magnifique. Un vrai artisan.",
-          date: "Avril 2024",
-        },
-        {
-          auteur: "Isabelle G.",
-          note: 5,
-          texte: "Nous avons fait appel à Thomas pour une rénovation complète. Son professionnalisme et sa passion pour le bois se ressentent dans chaque détail. Bravo !",
+          texte: "Bonjour Mr Baghdadia , On vient de rentrer de l’Afrique, on découvre notre cuisine aujourd’hui c’est magnifique, on est vraiment content et merci pour cette belle expérience poseur et métreur les meilleurs, je leur tire mon chapeau excellents👌🏼👌🏼👌🏼",
           date: "Février 2024",
         },
         {
-          auteur: "Marc T.",
-          note: 4,
-          texte: "Très bon suivi du projet du début à la fin. Thomas est quelqu'un de fiable et passionné. Je recommande sans hésitation.",
+          auteur: "Quentin Petite",
+          note: 5,
+          texte: "Personnels qui connaissent bien leurs travail, très bon conseils pour l’agencement de la cuisine. Super accueil à l’arrivée et cuisiniste au top! Nous sommes ravis de notre nouvelle cuisine ! Merci encore !",
+          date: "Avril 2024",
+        },
+        {
+          auteur: "Vincent Mignerey",
+          note: 5,
+          texte: "Tout s'est bien passé, de l'accueil, l'écoute du projet, la prise en compte des demandes, le devis, la pose et tous les éléments qui peuvent faire que nous ne pouvons qu'être satisfait du service proposé! Merci",
           date: "Décembre 2023",
         },
       ],
       certifications: ["Brevet Professionnel Menuisier", "Cuisiniste Expert Ecocuisine", "Certification Häfele"],
       chiffres: [
-        { label: "Projets réalisés", valeur: "350+" },
+        { label: "Projets réalisés", valeur: "50+" },
         { label: "Clients satisfaits", valeur: "97%" },
         { label: "Note Google", valeur: "4.8★" },
-        { label: "Années d'expérience", valeur: "12 ans" },
+        { label: "Années d'expérience", valeur: "2 ans" },
+      ],
+    },
+    {
+      slug: "emilie-mougin",
+      prenom: "Emilie",
+      nom: "MOUGIN",
+      titre: "Conceptrice vendeuse",
+      photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80",
+      anciennete: 7,
+      depuis: 2019,
+      description:
+        "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
+      specialites: ["Jour de repos le mercredi"],
+      telephone: "+33 3 39 53 06 60",
+      email: "e.mougin@ecocuisine-belfort.fr",
+      zone: "Andelnans",
+      projets: [
+        {
+          titre: "Cuisine ouverte en chêne massif",
+          description: "Rénovation complète d'une cuisine de 22m² avec îlot central et verrière.",
+          image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+          annee: 2024,
+        },
+        {
+          titre: "Appartement haussmannien",
+          description: "Réinterprétation moderne d'une cuisine classique avec moulures et marbre blanc.",
+          image: "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80",
+          annee: 2023,
+        },
+        {
+          titre: "Maison contemporaine Plouzané",
+          description: "Cuisine minimaliste sur-mesure avec rangements optimisés du sol au plafond.",
+          image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80",
+          annee: 2023,
+        },
+      ],
+      avis: [
+        {
+          auteur: "Pauline Petetin",
+          note: 5,
+          texte: `Nous recommandons cette enseigne, et tenons à souligner le professionnalisme, l’investissement et la disponibilité d’Emilie MOUGIN. Elle nous a accompagné des le départ, en se déplaçant à la maison pour prendre des mesures et nous proposer un plan adapté à nos demandes, que cela soit sur la teinte, les matériaux, la disposition ect. Tout s’est déroulé parfaitement de la conception à la pose, dont la rapidité et le professionnalisme du cuisiniste est également a souligner.
+Il est appréciable de confier ce projet à une personne aussi investie que l’est Émilie.`,
+          date: "",
+        },
+        {
+          auteur: "Alexis Vion",
+          note: 5,
+          texte: "Super expérience avec Ecocuisine tout au long du projet. Emilie a su répondre à nos attentes que ce soit en terme de fonctionnalités et d’originalité de la cuisine mais également au niveau du budget. Les délais ont été respectés et la pose s’est très bien déroulée avec 2 poseurs au top, Christopher et Johnathan. Merci à toute l’équipe. 👍",
+          date: "",
+        },
+        {
+          auteur: "Jéross !",
+          note: 5,
+          texte: `Un grand merci à Émilie pour son professionnalisme et sa créativité ! Elle a su parfaitement comprendre nos envies et nos besoins pour concevoir une cuisine à la fois pratique et esthétique. Toujours à l’écoute, réactive et pleine de bonnes idées, elle a rendu ce projet très agréable du début à la fin.
+Nous sommes ravis du résultat ! Merci encore Émilie ! 👏
+Et Vraiment un grand coup de cœur pour Christopher et John ! Deux personnes super gentilles, souriantes et très pros. La pose est impeccable, ils ont fait un travail magnifique. Merci à vous deux, vous êtes au top ! 🙌😊
+Je recommande les yeux fermés !!!`,
+          date: "",
+        },
+      ],
+      certifications: ["Qualibat RGE", "Cuisiniste Expert Ecocuisine", "Formation Blum Legrabox"],
+      chiffres: [
+        { label: "Projets réalisés", valeur: "200+" },
+        { label: "Clients satisfaits", valeur: "98%" },
+        { label: "Note Google", valeur: "4.9★" },
+        { label: "Années d'expérience", valeur: "7 ans" },
+      ],
+    },
+    {
+      slug: "maxime-amstutz",
+      prenom: "Maxime",
+      nom: "AMSTUTZ",
+      titre: "Concepteur vendeur",
+      photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80",
+      anciennete: 7,
+      depuis: 2019,
+      description:
+        "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
+      specialites: ["Jour de repos le lundi"],
+      telephone: "+33 3 81 31 10 00",
+      email: "m.amstutz@ecocuisine-montbeliard.fr",
+      zone: "Taillecourt",
+      projets: [
+        {
+          titre: "Cuisine ouverte en chêne massif",
+          description: "Rénovation complète d'une cuisine de 22m² avec îlot central et verrière.",
+          image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+          annee: 2024,
+        },
+        {
+          titre: "Appartement haussmannien",
+          description: "Réinterprétation moderne d'une cuisine classique avec moulures et marbre blanc.",
+          image: "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80",
+          annee: 2023,
+        },
+        {
+          titre: "Maison contemporaine Plouzané",
+          description: "Cuisine minimaliste sur-mesure avec rangements optimisés du sol au plafond.",
+          image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80",
+          annee: 2023,
+        },
+      ],
+      avis: [
+        {
+          auteur: "Claude Chavanne",
+          note: 5,
+          texte: `Changement de mon plan de travail existant.
+Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de notre vendeur Maxime.
+`,
+          date: "",
+        },
+        {
+          auteur: "Diego Titi",
+          note: 5,
+          texte: "Commerciale, métreur et poseurs au top. Poses identique au plan un grand merci pour notre cuisine installée en temps et en heure. Bravo Ecocuisine Taillecourt tout particulièrement Maxime",
+          date: "",
+        },
+      ],
+      certifications: ["Qualibat RGE", "Cuisiniste Expert Ecocuisine", "Formation Blum Legrabox"],
+      chiffres: [
+        { label: "Projets réalisés", valeur: "200+" },
+        { label: "Clients satisfaits", valeur: "98%" },
+        { label: "Note Google", valeur: "4.9★" },
+        { label: "Années d'expérience", valeur: "7 ans" },
+      ],
+    },
+    {
+      slug: "frederic-guedat",
+      prenom: "Frédéric",
+      nom: "GUEDAT",
+      titre: "Concepteur vendeur",
+      photo: "../src/images/fred.png",
+      anciennete: 20,
+      depuis: 2019,
+      description:
+        "Frédéric est une personne accueillante et souriante, qui sait mettre les clients à l’aise dès les premiers échanges. Persévérant dans son travail, il s’investit pleinement pour accompagner chaque projet avec sérieux et attention. Disponible, volontaire et à l’écoute, il prend le temps de comprendre les besoins de chacun afin de proposer un accompagnement adapté et personnalisé.",
+      specialites: ["Jour de repos le lundi"],
+      telephone: "+33 3 81 31 10 00",
+      email: "f.guedat@ecocuisine-belfort.fr",
+      zone: "Taillecourt",
+      projets: [
+        {
+          titre: "Cuisine ouverte en chêne massif",
+          description: "Rénovation complète d'une cuisine de 22m² avec îlot central et verrière.",
+          image: "../src/cuisines/fred/fred3.jpg",
+          annee: "",
+        },
+        {
+          titre: "Appartement haussmannien",
+          description: "Réinterprétation moderne d'une cuisine classique avec moulures et marbre blanc.",
+          image: "../src/cuisines/fred/fred2.jpg",
+          annee: "",
+        },
+        {
+          titre: "Maison contemporaine Plouzané",
+          description: "Cuisine minimaliste sur-mesure avec rangements optimisés du sol au plafond.",
+          image: "../src/cuisines/fred/fred1.jpg",
+          annee: "",
+        },
+      ],
+      avis: [
+        {
+          auteur: "Pauline Petetin",
+          note: 5,
+          texte: `Nous recommandons cette enseigne, et tenons à souligner le professionnalisme, l’investissement et la disponibilité d’Emilie MOUGIN. Elle nous a accompagné des le départ, en se déplaçant à la maison pour prendre des mesures et nous proposer un plan adapté à nos demandes, que cela soit sur la teinte, les matériaux, la disposition ect. Tout s’est déroulé parfaitement de la conception à la pose, dont la rapidité et le professionnalisme du cuisiniste est également a souligner.
+Il est appréciable de confier ce projet à une personne aussi investie que l’est Émilie.`,
+          date: "",
+        },
+        {
+          auteur: "Alexis Vion",
+          note: 5,
+          texte: "Super expérience avec Ecocuisine tout au long du projet. Emilie a su répondre à nos attentes que ce soit en terme de fonctionnalités et d’originalité de la cuisine mais également au niveau du budget. Les délais ont été respectés et la pose s’est très bien déroulée avec 2 poseurs au top, Christopher et Johnathan. Merci à toute l’équipe. 👍",
+          date: "",
+        },
+        {
+          auteur: "Jéross !",
+          note: 5,
+          texte: `Un grand merci à Émilie pour son professionnalisme et sa créativité ! Elle a su parfaitement comprendre nos envies et nos besoins pour concevoir une cuisine à la fois pratique et esthétique. Toujours à l’écoute, réactive et pleine de bonnes idées, elle a rendu ce projet très agréable du début à la fin.
+Nous sommes ravis du résultat ! Merci encore Émilie ! 👏
+Et Vraiment un grand coup de cœur pour Christopher et John ! Deux personnes super gentilles, souriantes et très pros. La pose est impeccable, ils ont fait un travail magnifique. Merci à vous deux, vous êtes au top ! 🙌😊
+Je recommande les yeux fermés !!!`,
+          date: "",
+        },
+      ],
+      certifications: [""],
+      chiffres: [
+        { label: "Projets réalisés", valeur: "200+" },
+        { label: "Clients satisfaits", valeur: "98%" },
+        { label: "Note Google", valeur: "4.9★" },
+        { label: "Années d'expérience", valeur: "20 ans" },
+      ],
+    },
+    {
+      slug: "maxime-amstutz",
+      prenom: "Maxime",
+      nom: "AMSTUTZ",
+      titre: "Concepteur vendeur",
+      photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80",
+      anciennete: 7,
+      depuis: 2019,
+      description:
+        "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
+      specialites: ["Jour de repos le lundi"],
+      telephone: "+33 3 81 31 10 00",
+      email: "m.amstutz@ecocuisine-montbeliard.fr",
+      zone: "Taillecourt",
+      projets: [
+        {
+          titre: "Cuisine ouverte en chêne massif",
+          description: "Rénovation complète d'une cuisine de 22m² avec îlot central et verrière.",
+          image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+          annee: 2024,
+        },
+        {
+          titre: "Appartement haussmannien",
+          description: "Réinterprétation moderne d'une cuisine classique avec moulures et marbre blanc.",
+          image: "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80",
+          annee: 2023,
+        },
+        {
+          titre: "Maison contemporaine Plouzané",
+          description: "Cuisine minimaliste sur-mesure avec rangements optimisés du sol au plafond.",
+          image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800&q=80",
+          annee: 2023,
+        },
+      ],
+      avis: [
+        {
+          auteur: "Claude Chavanne",
+          note: 5,
+          texte: `Changement de mon plan de travail existant.
+Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de notre vendeur Maxime.
+`,
+          date: "",
+        },
+        {
+          auteur: "Diego Titi",
+          note: 5,
+          texte: "Commerciale, métreur et poseurs au top. Poses identique au plan un grand merci pour notre cuisine installée en temps et en heure. Bravo Ecocuisine Taillecourt tout particulièrement Maxime",
+          date: "",
+        },
+      ],
+      certifications: ["Qualibat RGE", "Cuisiniste Expert Ecocuisine", "Formation Blum Legrabox"],
+      chiffres: [
+        { label: "Projets réalisés", valeur: "200+" },
+        { label: "Clients satisfaits", valeur: "98%" },
+        { label: "Note Google", valeur: "4.9★" },
+        { label: "Années d'expérience", valeur: "7 ans" },
       ],
     },
   ];
@@ -163,3 +412,4 @@ Merci à Eco cuisine d'Andelnans.`,
   export function getVendeurBySlug(slug: string): Vendeur | undefined {
     return vendeurs.find((v) => v.slug === slug);
   }
+  
