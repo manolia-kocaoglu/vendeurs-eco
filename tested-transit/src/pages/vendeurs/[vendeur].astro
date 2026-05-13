@@ -98,15 +98,6 @@ const anciennete = anneeActuelle - vendeur.depuis;
               <p class="about-desc">{vendeur.description}</p>
             </div>
             <div class="certif-block">
-              <h3 class="certif-title">Certifications & formations</h3>
-              <ul class="certif-list">
-                {vendeur.certifications.map((c) => (
-                  <li class="certif-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                    {c}
-                  </li>
-                ))}
-              </ul>
               <div class="contact-card">
                 <p class="contact-label">Contact direct</p>
                 <a href={`tel:${vendeur.telephone}`} class="contact-line">{vendeur.telephone}</a>

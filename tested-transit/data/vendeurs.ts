@@ -290,7 +290,7 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
       titre: "Concepteur vendeur",
       photo: "../src/images/fred.png",
       anciennete: 20,
-      depuis: 2019,
+      depuis: 2006,
       description:
         "Frédéric est une personne accueillante et souriante, qui sait mettre les clients à l’aise dès les premiers échanges. Persévérant dans son travail, il s’investit pleinement pour accompagner chaque projet avec sérieux et attention. Disponible, volontaire et à l’écoute, il prend le temps de comprendre les besoins de chacun afin de proposer un accompagnement adapté et personnalisé.",
       specialites: ["Jour de repos le lundi"],
@@ -319,31 +319,28 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
       ],
       avis: [
         {
-          auteur: "Pauline Petetin",
+          auteur: "Huot Raphaël",
           note: 5,
-          texte: `Nous recommandons cette enseigne, et tenons à souligner le professionnalisme, l’investissement et la disponibilité d’Emilie MOUGIN. Elle nous a accompagné des le départ, en se déplaçant à la maison pour prendre des mesures et nous proposer un plan adapté à nos demandes, que cela soit sur la teinte, les matériaux, la disposition ect. Tout s’est déroulé parfaitement de la conception à la pose, dont la rapidité et le professionnalisme du cuisiniste est également a souligner.
-Il est appréciable de confier ce projet à une personne aussi investie que l’est Émilie.`,
+          texte: `Frederic a su mettre en forme notre projet de cuisine. Le rendu final est conforme à la réalisation 3D et à la cuisine que nous voulions. Le travail du poseur est impeccable. Le délai de livraison et de montage ont été respectés. Les imprévus (non imputable à eco cuisine) ont été gérés comme il se doit par le responsable d’agence et Frederic.
+C’est donc en toute confiance que je vois recommande Eco cuisine exincourt.`,
           date: "",
         },
         {
-          auteur: "Alexis Vion",
+          auteur: "Angélique Simon",
           note: 5,
-          texte: "Super expérience avec Ecocuisine tout au long du projet. Emilie a su répondre à nos attentes que ce soit en terme de fonctionnalités et d’originalité de la cuisine mais également au niveau du budget. Les délais ont été respectés et la pose s’est très bien déroulée avec 2 poseurs au top, Christopher et Johnathan. Merci à toute l’équipe. 👍",
+          texte: "Vendeur, métreur et poseur à l’écoute et de bons conseils. Plusieurs changements dans la conception de la cuisine, Frédéric a été très réactif. Le métreur nous a proposé des modifications judicieuses et le monteur a travaillé rapidement, soigneusement et discrètement. Nous recommandons Ecocuisine Taillecourt. toute l’équipe est très professionnelle et les cuisines de bonnes qualités.",
           date: "",
         },
         {
-          auteur: "Jéross !",
+          auteur: "Corentin",
           note: 5,
-          texte: `Un grand merci à Émilie pour son professionnalisme et sa créativité ! Elle a su parfaitement comprendre nos envies et nos besoins pour concevoir une cuisine à la fois pratique et esthétique. Toujours à l’écoute, réactive et pleine de bonnes idées, elle a rendu ce projet très agréable du début à la fin.
-Nous sommes ravis du résultat ! Merci encore Émilie ! 👏
-Et Vraiment un grand coup de cœur pour Christopher et John ! Deux personnes super gentilles, souriantes et très pros. La pose est impeccable, ils ont fait un travail magnifique. Merci à vous deux, vous êtes au top ! 🙌😊
-Je recommande les yeux fermés !!!`,
+          texte: `Nous avons eu Frédéric, il a su écouter nos besoin et nous conseiller, un travail de qualité et remarquable, je ne peut que recommandé!
+Très satisfaits de notre nouvelle cuisine ! La pose a été faite avec beaucoup de soin par Aurélien, un travail impeccable. La conception réalisée par Frédéric correspond parfaitement à nos attentes : pratique, esthétique et exactement comme imaginée. Eco Cuisine offre vraiment un service de qualité. Nous recommandons vivement !`,
           date: "",
         },
       ],
-      certifications: [""],
+      certifications: [],
       chiffres: [
-        { label: "Projets réalisés", valeur: "200+" },
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
         { label: "Années d'expérience", valeur: "20 ans" },
