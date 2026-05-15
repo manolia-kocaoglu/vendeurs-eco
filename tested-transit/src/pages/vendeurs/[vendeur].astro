@@ -73,32 +73,12 @@ const anciennete = anneeActuelle - vendeur.depuis;
         </div>
       </section>
 
-      <section class="chiffres">
-        <div class="chiffres-grid">
-          {vendeur.chiffres.map((c) => (
-            <div class="chiffre-item">
-              <span class="chiffre-val">{c.valeur}</span>
-              <span class="chiffre-label">{c.label}</span>
-            </div>
-          ))}
-        </div>
-      </section>
 
       <section class="section about">
         <div class="container">
           <div class="section-label">À propos</div>
-          <div class="about-grid">
-            <div class="about-text">
-              <h2 class="section-title">Une expertise<br/><em>au service de vos projets</em></h2>
-              <p class="about-desc">{vendeur.description}</p>
-            </div>
-            <div class="certif-block">
-              <div class="contact-card">
-                <p class="contact-label">Contact direct</p>
-                <a href={`tel:${vendeur.telephone}`} class="contact-line">{vendeur.telephone}</a>
-                <a href={`mailto:${vendeur.email}`} class="contact-line">{vendeur.email}</a>
-              </div>
-            </div>
+          <h2 class="section-title">Une expertise<br/><em>au service de vos projets</em></h2>
+<p class="about-desc">{vendeur.description}</p>
           </div>
         </div>
       </section>
@@ -114,15 +94,19 @@ const anciennete = anneeActuelle - vendeur.depuis;
                   <img src={p.image} alt={p.titre} class="projet-img" loading="lazy" />
                   <span class="projet-annee">{p.annee}</span>
                 </div>
-                <div class="projet-body">
-                  <h3 class="projet-titre">{p.titre}</h3>
-                  <p class="projet-desc">{p.description}</p>
-                </div>
               </article>
             ))}
           </div>
         </div>
       </section>
+
+      <!-- Lightbox -->
+      <div id="lightbox" aria-hidden="true">
+        <button id="lightbox-close" aria-label="Fermer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <img id="lightbox-img" src="" alt="" />
+      </div>
 
       <section class="section avis">
         <div class="container">
@@ -177,6 +161,40 @@ const anciennete = anneeActuelle - vendeur.depuis;
         <p>© {anneeActuelle} Ecocuisine — <span>{vendeur.prenom} {vendeur.nom}</span></p>
       </div>
     </footer>
+
+    <script>
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement;
+      const closeBtn = document.getElementById('lightbox-close');
+
+      document.querySelectorAll('.projet-card').forEach((card) => {
+        card.addEventListener('click', () => {
+          const img = card.getAttribute('data-img');
+          const titre = card.getAttribute('data-titre');
+          if (img && lightboxImg && lightbox) {
+            lightboxImg.src = img;
+            lightboxImg.alt = titre || '';
+            lightbox.classList.add('open');
+            lightbox.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+          }
+        });
+      });
+
+      function closeLightbox() {
+        lightbox?.classList.remove('open');
+        lightbox?.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      }
+
+      closeBtn?.addEventListener('click', closeLightbox);
+      lightbox?.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+      });
+    </script>
 
   </body>
 </html>
@@ -275,39 +293,8 @@ const anciennete = anneeActuelle - vendeur.depuis;
     display: block;
     filter: grayscale(10%) contrast(1.05);
   }
-  .anciennete-badge {
-    position: absolute;
-    bottom: -16px;
-    right: -16px;
-    background: var(--orange);
-    color: white;
-    border-radius: 50%;
-    width: 88px;
-    height: 88px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 0 4px 20px rgba(240,125,0,0.4);
-  }
-  .anciennete-num {
-    font-family: var(--font-display);
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 1;
-  }
-  .anciennete-txt { font-size: 9.5px; font-weight: 700; line-height: 1.3; opacity: 0.9; }
 
   .hero-info { color: var(--cream); }
-  .hero-depuis {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--orange-light);
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
   .hero-nom {
     font-family: var(--font-display);
     font-size: clamp(38px, 6vw, 60px);
@@ -380,8 +367,8 @@ const anciennete = anneeActuelle - vendeur.depuis;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    border: 1.5px solid var(--bark);
-    color: var(--bark);
+    border: 1.5px solid rgba(255,255,255,0.3);
+    color: var(--cream);
     padding: 14px 28px;
     border-radius: 8px;
     text-decoration: none;
@@ -390,7 +377,7 @@ const anciennete = anneeActuelle - vendeur.depuis;
     font-family: var(--font-display);
     transition: background 0.2s;
   }
-  .btn-outline:hover { background: var(--bark); color: white; }
+  .btn-outline:hover { background: rgba(255,255,255,0.1); }
   .btn-large { padding: 16px 32px; font-size: 16px; }
 
   /* ---- CHIFFRES ---- */
@@ -399,22 +386,22 @@ const anciennete = anneeActuelle - vendeur.depuis;
     border-top: 3px solid var(--orange);
   }
   .chiffres-grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 40px 24px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.chiffre-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  border-right: 1px solid rgba(240,125,0,0.2);
-  text-align: center;
-  min-width: 200px; /* ← ajoute ça */
-}
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .chiffre-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    border-right: 1px solid rgba(240,125,0,0.2);
+    text-align: center;
+    min-width: 180px;
+  }
   .chiffre-item:last-child { border-right: none; }
   .chiffre-val {
     font-family: var(--font-display);
@@ -477,28 +464,7 @@ const anciennete = anneeActuelle - vendeur.depuis;
     border: 1px solid var(--stone-light);
     border-top: 3px solid var(--orange);
   }
-  .certif-title {
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--stone);
-    font-weight: 800;
-    margin-bottom: 20px;
-    font-family: var(--font-display);
-  }
-  .certif-list { list-style: none; display: flex; flex-direction: column; gap: 12px; margin-bottom: 28px; }
-  .certif-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 14px;
-    color: var(--bark);
-    font-weight: 500;
-  }
-  .certif-item svg { color: var(--orange); flex-shrink: 0; }
   .contact-card {
-    border-top: 1px solid var(--stone-light);
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -526,56 +492,91 @@ const anciennete = anneeActuelle - vendeur.depuis;
   .projets-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 16px;
   }
-  .projet-card--featured { grid-column: span 1; }
   .projet-card {
-    background: white;
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: hidden;
     border: 1px solid var(--stone-light);
+    cursor: pointer;
+    aspect-ratio: 4 / 3;
+    position: relative;
     transition: transform 0.2s, box-shadow 0.2s;
   }
-  .projet-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(240,125,0,0.12); }
-  .projet-img-wrap { position: relative; overflow: hidden; }
-  .projet-img-wrap::after { content: ''; display: block; padding-bottom: 62%; }
+  .projet-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(240,125,0,0.15);
+  }
+  .projet-img-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
   .projet-img {
-    position: absolute;
-    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
     transition: transform 0.4s;
   }
-  .projet-card:hover .projet-img { transform: scale(1.04); }
-  .projet-annee {
+  .projet-card:hover .projet-img { transform: scale(1.06); }
+  .projet-overlay {
     position: absolute;
-    top: 12px;
-    right: 12px;
-    background: var(--orange);
-    color: white;
-    font-size: 12px;
-    font-weight: 800;
-    padding: 4px 10px;
-    border-radius: 100px;
-    letter-spacing: 0.05em;
-    font-family: var(--font-display);
+    inset: 0;
+    background: rgba(0,0,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: background 0.3s, opacity 0.3s;
   }
-  .projet-body { padding: 24px; }
-  .projet-titre {
-    font-family: var(--font-display);
-    font-size: 18px;
-    font-weight: 800;
-    color: var(--bark);
-    margin-bottom: 8px;
-    line-height: 1.3;
+  .projet-card:hover .projet-overlay {
+    background: rgba(0,0,0,0.35);
+    opacity: 1;
   }
-  .projet-desc {
-    font-size: 14px;
-    color: var(--stone);
-    line-height: 1.6;
-    font-weight: 400;
+  .projet-overlay svg {
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
   }
+
+  /* ---- LIGHTBOX ---- */
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.93);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  #lightbox.open {
+    display: flex;
+  }
+  #lightbox-img {
+    max-width: 90vw;
+    max-height: 88vh;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 32px 80px rgba(0,0,0,0.6);
+    cursor: default;
+  }
+  #lightbox-close {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(255,255,255,0.15);
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    z-index: 1000;
+  }
+  #lightbox-close:hover { background: rgba(255,255,255,0.28); }
 
   /* ---- AVIS ---- */
   .avis { background: var(--warm-white); }
@@ -666,8 +667,6 @@ const anciennete = anneeActuelle - vendeur.depuis;
     margin-bottom: 40px;
   }
   .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-  .cta-buttons .btn-outline { color: var(--cream); border-color: rgba(255,255,255,0.3); }
-  .cta-buttons .btn-outline:hover { background: rgba(255,255,255,0.1); }
 
   /* ---- FOOTER ---- */
   .site-footer {
@@ -683,22 +682,18 @@ const anciennete = anneeActuelle - vendeur.depuis;
     .hero-content { flex-direction: column; gap: 40px; padding: 48px 24px; text-align: center; align-items: center; }
     .hero-photo { width: 200px; height: 240px; }
     .hero-zone, .specialites, .hero-cta { justify-content: center; }
-    .chiffres-grid { grid-template-columns: repeat(2, 1fr); }
-    .chiffre-item:nth-child(2) { border-right: none; }
     .about-grid { grid-template-columns: 1fr; gap: 40px; }
-    .projets-grid { grid-template-columns: 1fr 1fr; }
-    .projet-card--featured { grid-column: span 2; }
-    .avis-grid { grid-template-columns: 1fr; }
+    .projets-grid { grid-template-columns: repeat(2, 1fr); }
+    .avis-grid { grid-template-columns: 1fr 1fr; }
   }
 
   @media (max-width: 600px) {
     .hero-photo { width: 170px; height: 200px; }
-    .anciennete-badge { width: 72px; height: 72px; bottom: -12px; right: -12px; }
-    .anciennete-num { font-size: 22px; }
-    .chiffres-grid { grid-template-columns: repeat(2, 1fr); padding: 24px; }
     .section { padding: 56px 0; }
     .projets-grid { grid-template-columns: 1fr; }
-    .projet-card--featured { grid-column: span 1; }
+.projet-card--featured { grid-column: span 1; }
+    .avis-grid { grid-template-columns: 1fr; }
     .cta-buttons { flex-direction: column; }
+    .chiffre-item { padding: 16px 20px; min-width: 140px; }
   }
 </style>
