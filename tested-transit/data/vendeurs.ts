@@ -91,7 +91,7 @@ Merci à Eco cuisine d'Andelnans.`,
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "d'ancienneté", valeur: "7 ans" },
+        { label: "d'ancienneté", valeur: "18 ans" },
       ],
     },
     {
@@ -152,7 +152,7 @@ Merci à Eco cuisine d'Andelnans.`,
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "d'ancienneté", valeur: "7 ans" },
+        { label: "d'ancienneté", valeur: "10 ans" },
       ],
     },
     {
@@ -228,7 +228,7 @@ Je recommande les yeux fermés !!!`,
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "d'ancienneté", valeur: "7 ans" },
+        { label: "d'ancienneté", valeur: "10 ans" },
       ],
     },
     {
@@ -296,7 +296,7 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "d'ancienneté", valeur: "7 ans" },
+        { label: "d'ancienneté", valeur: "8 ans" },
       ],
     },
     {
@@ -358,7 +358,7 @@ Très satisfaits de notre nouvelle cuisine ! La pose a été faite avec beaucoup
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "d'ancienneté", valeur: "7 ans" },
+        { label: "d'ancienneté", valeur: "20 ans" },
       ],
     },
 
