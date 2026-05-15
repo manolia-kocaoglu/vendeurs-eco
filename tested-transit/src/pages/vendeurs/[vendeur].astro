@@ -73,6 +73,16 @@ const anciennete = anneeActuelle - vendeur.depuis;
         </div>
       </section>
 
+      <section class="chiffres">
+        <div class="chiffres-grid">
+          {vendeur.chiffres.map((c) => (
+            <div class="chiffre-item">
+              <span class="chiffre-val">{c.valeur}</span>
+              <span class="chiffre-label">{c.label}</span>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section class="section about">
         <div class="container">
