@@ -37,7 +37,7 @@ export interface Avis {
       prenom: "Julien",
       nom: "HACQUARD",
       titre: "Chef des ventes",
-      photo: "../public/images/julien.jpeg",
+      photo: "/images/julien.jpeg",
       anciennete: 18,
       depuis: 2008,
       description:
