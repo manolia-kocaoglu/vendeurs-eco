@@ -48,13 +48,8 @@ const anciennete = anneeActuelle - vendeur.depuis;
               class="hero-photo"
               loading="eager"
             />
-            <div class="anciennete-badge">
-              <span class="anciennete-num">{anciennete}</span>
-              <span class="anciennete-txt">ans chez<br/>Ecocuisine</span>
-            </div>
           </div>
           <div class="hero-info">
-            <p class="hero-depuis">Conseiller depuis {vendeur.depuis}</p>
             <h1 class="hero-nom">{vendeur.prenom}<br/><em>{vendeur.nom}</em></h1>
             <p class="hero-titre">{vendeur.titre}</p>
             <p class="hero-zone">
@@ -404,21 +399,22 @@ const anciennete = anneeActuelle - vendeur.depuis;
     border-top: 3px solid var(--orange);
   }
   .chiffres-grid {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 40px 24px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-  }
-  .chiffre-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border-right: 1px solid rgba(240,125,0,0.2);
-    text-align: center;
-  }
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.chiffre-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-right: 1px solid rgba(240,125,0,0.2);
+  text-align: center;
+  min-width: 200px; /* ← ajoute ça */
+}
   .chiffre-item:last-child { border-right: none; }
   .chiffre-val {
     font-family: var(--font-display);
@@ -532,7 +528,7 @@ const anciennete = anneeActuelle - vendeur.depuis;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
   }
-  .projet-card--featured { grid-column: span 2; }
+  .projet-card--featured { grid-column: span 1; }
   .projet-card {
     background: white;
     border-radius: 16px;
