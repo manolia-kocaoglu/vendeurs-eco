@@ -99,7 +99,7 @@ Merci à Eco cuisine d'Andelnans.`,
       prenom: "Aoued",
       nom: "BAGHDADIA",
       titre: "Concepteur vendeur",
-      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+      photo: "/images/aoued.png",
       anciennete: 2,
       depuis: 2024,
       description:
