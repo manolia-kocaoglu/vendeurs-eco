@@ -164,7 +164,7 @@ Merci à Eco cuisine d'Andelnans.`,
       anciennete: 10,
       depuis: 2016,
       description:
-        "Emilie est à votre écoute et très empathique, elle aime créer une relation privilégiée avec ses clients. Emilie attache beaucoup d’importance à la convivialité ayant à cœur que ses clients passent un bon moment. Elle prend plaisir à mettre en valeur chaque projet comme si s’était le sien.",
+        "Emilie est à votre écoute et très empathique, elle aime créer une relation privilégiée avec ses clients. Emilie attache beaucoup d’importance à la convivialité ayant à cœur que ses clients passent un bon moment. Elle prend plaisir à mettre en valeur chaque projet comme si c’était le sien.",
       specialites: ["Jour de repos le mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "e.mougin@ecocuisine-belfort.fr",
