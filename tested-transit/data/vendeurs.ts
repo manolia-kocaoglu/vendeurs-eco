@@ -41,7 +41,7 @@ export interface Avis {
       anciennete: 18,
       depuis: 2008,
       description:
-        "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
+        "Julien est un concepteur confirmé ayant une écoute active et une maitrise de son métier. Grace à son expérience, il saura trouver l’implantation correspondante à vos attentes. Julien est un « communiquant » et aime allier efficacité et convivialité.",
       specialites: ["Jour de repos le mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "j.hacquard@ecocuisine-belfort.fr",
@@ -103,7 +103,7 @@ Merci à Eco cuisine d'Andelnans.`,
       anciennete: 2,
       depuis: 2024,
       description:
-        "Menuisier de formation, Thomas a rejoint Ecocuisine il y a 12 ans pour mettre son savoir-faire artisanal au service de projets modernes. Sa connaissance approfondie des matériaux lui permet de conseiller ses clients avec précision et honnêteté. Il est particulièrement reconnu pour ses réalisations dans les maisons contemporaines et les lofts.",
+        "Aoued aime faire plaisir à ses clients en faisant preuve d’écoute. C’est un « bon vivant » qui apprécie de travailler dans une ambiance conviviale.",
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 39 53 06 60",
       email: "a.baghdadia@ecocuisine-belfort.fr",
@@ -164,7 +164,7 @@ Merci à Eco cuisine d'Andelnans.`,
       anciennete: 10,
       depuis: 2016,
       description:
-        "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
+        "Emilie est à votre écoute et très empathique, elle aime créer une relation privilégiée avec ses clients. Emilie attache beaucoup d’importance à la convivialité ayant à cœur que ses clients passent un bon moment. Elle prend plaisir à mettre en valeur chaque projet comme si s’était le sien.",
       specialites: ["Jour de repos le mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "e.mougin@ecocuisine-belfort.fr",
@@ -240,7 +240,7 @@ Je recommande les yeux fermés !!!`,
       anciennete: 7,
       depuis: 2019,
       description:
-        "Passionné par l'aménagement intérieur depuis plus de 7 ans, Julien accompagne chaque client avec une attention particulière aux détails et une écoute totale. Il transforme vos envies en espaces fonctionnels et esthétiques, en alliant modernité et chaleur humaine. Son approche ? Comprendre votre mode de vie avant de vous proposer la cuisine de vos rêves.",
+        "Maxime incarne la « force tranquille ». Toujours à l’écoute de ses clients, Maxime à un contact agréable, fait preuve de patience et de calme en toutes circonstances !",
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 81 31 10 00",
       email: "m.amstutz@ecocuisine-montbeliard.fr",
@@ -292,6 +292,12 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
           texte: "Commerciale, métreur et poseurs au top. Poses identique au plan un grand merci pour notre cuisine installée en temps et en heure. Bravo Ecocuisine Taillecourt tout particulièrement Maxime",
           date: "",
         },
+        {
+          auteur: "Marie-Laure Samyn",
+          note: 5,
+          texte: "Contente d’avoir commandé ma cuisine chez eux. Le commercial très professionnel et très sympathique. L’équipe de poseurs est très professionnel aussi et très minutieux. Travail très propre. Je recommande",
+          date: "",
+        },
       ],
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
@@ -308,7 +314,7 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
       anciennete: 20,
       depuis: 2006,
       description:
-        "Frédéric est une personne accueillante et souriante, qui sait mettre les clients à l’aise dès les premiers échanges. Persévérant dans son travail, il s’investit pleinement pour accompagner chaque projet avec sérieux et attention. Disponible, volontaire et à l’écoute, il prend le temps de comprendre les besoins de chacun afin de proposer un accompagnement adapté et personnalisé.",
+        "Frédéric est un concepteur consciencieux et méthodique. Il est organisé et a à cœur que tout soit bien réalisé et que vous n’ayez aucunes mauvaises surprises. De part son expérience et son aisance avec le logiciel de dessin, il vous proposera toujours la réalisation du projet face à vous et ce au 1 er rendez-vous !",
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 81 31 10 00",
       email: "f.guedat@ecocuisine-belfort.fr",
@@ -352,6 +358,69 @@ C’est donc en toute confiance que je vouxs recommande Eco cuisine exincourt.`,
           note: 5,
           texte: `Nous avons eu Frédéric, il a su écouter nos besoin et nous conseiller, un travail de qualité et remarquable, je ne peut que recommandé!
 Très satisfaits de notre nouvelle cuisine ! La pose a été faite avec beaucoup de soin par Aurélien, un travail impeccable. La conception réalisée par Frédéric correspond parfaitement à nos attentes : pratique, esthétique et exactement comme imaginée. Eco Cuisine offre vraiment un service de qualité. Nous recommandons vivement !`,
+          date: "",
+        },
+      ],
+      chiffres: [
+        { label: "Clients satisfaits", valeur: "98%" },
+        { label: "Note Google", valeur: "4.9★" },
+        { label: "d'ancienneté", valeur: "20 ans" },
+      ],
+    },
+    {
+      slug: "yohann-thiebaut",
+      prenom: "Yohann",
+      nom: "THIEBAUT",
+      titre: "Concepteur vendeur",
+      photo: "/images/yohann.png",
+      anciennete: 20,
+      depuis: 2006,
+      description:
+        "Yohann est un vendeur à l’écoute de ses clients, fait preuve d’empathie et est très impliqué dans son travail. Son expérience lui permet d’être réactif et saura vous proposer un projet complet, de qualité, le jour même.",
+      specialites: ["Jour de repos le mardi"],
+      telephone: "+33 3 81 31 10 00",
+      email: "y.thiebaut@ecocuisine-belfort.fr",
+      zone: "Taillecourt",
+      projets: [
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/yohann/yohann1.jpg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/yohann/yohann2.jpg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/yohann/yohann3.jpg",
+          annee: "",
+        },
+      ],
+      avis: [
+        {
+          auteur: "Nicolas",
+          note: 5,
+          texte: `Nous remercions Yohann THIEBAUD pour son accueil chaleureux mais également pour le temps qui nous a accorder afin de réaliser notre projet cuisine.
+Nos souhaits et nos attentes ont été respecté. Un grand merci également au poseur pour son travail de qualité.
+Nous sommes très contents du résultat final.
+Nous vous recommandons vivement leurs services.`,
+          date: "",
+        },
+        {
+          auteur: "Samuela Lisciani",
+          note: 5,
+          texte: "Je suis plus que satisfaite de la cuisine choisie chez Ecocuisine. J'ai pu tout choisi, plan de travail, meubles, couleur, poignées, électroménager. Yohann est un vendeur aux petits soins pour ses clients. On a pu adapter la hauteur du plan de travail à ma taille, il m'a aiguillée pour le choix du carrelage. C'est un conseiller au top et à l'écoute, je vous le recommande vivement. La cuisine est de haute qualité. Vous pouvez y aller les yeux fetmés",
+          date: "",
+        },
+        {
+          auteur: "Lydie CURTIT",
+          note: 5,
+          texte: `Je recommande ce magasin, ma cuisine est superbe, le montage a été réalisé en un temps record. Une attention particulière à Yohann, qui a été à l'écoute de mes attentes, et m'a bien conseillé.`,
           date: "",
         },
       ],
