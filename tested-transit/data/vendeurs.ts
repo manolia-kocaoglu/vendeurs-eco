@@ -317,7 +317,7 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
         "Frédéric est un concepteur consciencieux et méthodique. Il est organisé et a à cœur que tout soit bien réalisé et que vous n’ayez aucunes mauvaises surprises. De part son expérience et son aisance avec le logiciel de dessin, il vous proposera toujours la réalisation du projet face à vous et ce au 1 er rendez-vous !",
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 81 31 10 00",
-      email: "f.guedat@ecocuisine-belfort.fr",
+      email: "f.guedat@ecocuisine-montbeliard.fr",
       zone: "Taillecourt",
       projets: [
         {
@@ -379,7 +379,7 @@ Très satisfaits de notre nouvelle cuisine ! La pose a été faite avec beaucoup
         "Yohann est un vendeur à l’écoute de ses clients, fait preuve d’empathie et est très impliqué dans son travail. Son expérience lui permet d’être réactif et saura vous proposer un projet complet, de qualité, le jour même.",
       specialites: ["Jour de repos le mardi"],
       telephone: "+33 3 81 31 10 00",
-      email: "y.thiebaut@ecocuisine-belfort.fr",
+      email: "y.thiebaut@ecocuisine-montbeliard.fr",
       zone: "Taillecourt",
       projets: [
         {
