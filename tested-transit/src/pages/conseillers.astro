@@ -22,7 +22,7 @@ const vendeursSansDoublons = vendeurs.filter(
     <header class="site-header">
       <div class="header-inner">
         <a href="https://ecocuisine.fr" class="brand">
-          <span class="brand-eco">eco</span><span class="brand-cuisine">cuisine</span>
+          <img src="/images/logo.png" alt="Ecocuisine" class="brand-logo" />
         </a>
       </div>
     </header>
@@ -369,4 +369,9 @@ const vendeursSansDoublons = vendeurs.filter(
   @media (max-width: 400px) {
     .grid { grid-template-columns: 1fr; }
   }
+  .brand-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+}
 </style>
