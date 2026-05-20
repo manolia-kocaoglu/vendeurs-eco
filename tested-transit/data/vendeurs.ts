@@ -41,7 +41,9 @@ export interface Avis {
       anciennete: 18,
       depuis: 2008,
       description:
-        "Julien est un concepteur confirmé ayant une écoute active et une maitrise de son métier. Grace à son expérience, il saura trouver l’implantation correspondante à vos attentes. Julien est un « communiquant » et aime allier efficacité et convivialité.",
+        `Julien est un concepteur vendeur confirmé ayant une écoute active et une maîtrise de son métier.
+Grâce à son expérience, il saura trouver l’implantation correspondante à vos attentes. 
+Julien est un « communiquant » et aime allier efficacité et convivialité.`,
       specialites: ["Jour de repos le mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "j.hacquard@ecocuisine-belfort.fr",
@@ -103,18 +105,13 @@ Merci à Eco cuisine d'Andelnans.`,
       anciennete: 10,
       depuis: 2016,
       description:
-        "Aoued aime faire plaisir à ses clients en faisant preuve d’écoute. C’est un « bon vivant » qui apprécie de travailler dans une ambiance conviviale.",
+        `Aoued aime faire plaisir à ses clients en faisant preuve d’écoute, il met tout en œuvre pour répondre à vos attentes de la meilleure des façons.
+  C’est un « bon vivant » qui apprécie de travailler dans une ambiance conviviale.`,
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 39 53 06 60",
       email: "a.baghdadia@ecocuisine-belfort.fr",
       zone: "Andelnans",
       projets: [
-        {
-          titre: "",
-          description: "",
-          image: "/cuisines/aoued/aoued1.jpg",
-          annee: "",
-        },
         {
           titre: "",
           description: "",
@@ -125,6 +122,18 @@ Merci à Eco cuisine d'Andelnans.`,
           titre: "",
           description: "",
           image: "/cuisines/aoued/aoued3.jpg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/aoued/aoued4.jpg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/aoued/aoued5.jpg",
           annee: "",
         },
       ],
@@ -164,7 +173,9 @@ Merci à Eco cuisine d'Andelnans.`,
       anciennete: 10,
       depuis: 2016,
       description:
-        "Emilie est à votre écoute et très empathique, elle aime créer une relation privilégiée avec ses clients. Emilie attache beaucoup d’importance à la convivialité ayant à cœur que ses clients passent un bon moment. Elle prend plaisir à mettre en valeur chaque projet comme si c’était le sien.",
+        `Emilie aime créer une relation privilégiée avec ses clients en faisant preuve d’empathie et d’écoute.
+Du fait de sa personnalité naturelle, elle attache beaucoup d’importance à la convivialité en créant des moments agréables.
+Emilie prend plaisir à mettre en valeur chaque projet comme si c&#39;était le sien.`,
       specialites: ["Jour de repos le jeudi"],
       telephone: "+33 3 39 53 06 60",
       email: "e.mougin@ecocuisine-belfort.fr",
@@ -240,7 +251,8 @@ Je recommande les yeux fermés !!!`,
       anciennete: 7,
       depuis: 2019,
       description:
-        "Maxime incarne la « force tranquille ». Toujours à l’écoute de ses clients, Maxime à un contact agréable, fait preuve de patience et de calme en toutes circonstances !",
+        `Maxime est toujours à l’écoute de ses clients, à un contact agréable, fait preuve de patience et de calme en toutes circonstances !
+Il incarne la « force tranquille ».`,
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 81 31 10 00",
       email: "m.amstutz@ecocuisine-montbeliard.fr",
@@ -314,7 +326,9 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
       anciennete: 20,
       depuis: 2006,
       description:
-        "Frédéric est un concepteur consciencieux et méthodique. Il est organisé et a à cœur que tout soit bien réalisé et que vous n’ayez aucunes mauvaises surprises. De part son expérience et son aisance avec le logiciel de dessin, il vous proposera toujours la réalisation du projet face à vous et ce au 1 er rendez-vous !",
+        `Frédéric est un concepteur vendeur consciencieux et méthodique.
+Il est organisé et a à cœur que tout soit bien réalisé et que vous n’ayez aucunes mauvaises surprises.
+Du fait de son expérience et son aisance avec le logiciel de dessin, il vous proposera toujours la réalisation du projet face à vous et ce au 1 er rendez-vous !`,
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 81 31 10 00",
       email: "f.guedat@ecocuisine-montbeliard.fr",
@@ -376,7 +390,9 @@ Très satisfaits de notre nouvelle cuisine ! La pose a été faite avec beaucoup
       anciennete: 20,
       depuis: 2006,
       description:
-        "Yohann est un vendeur à l’écoute de ses clients, fait preuve d’empathie et est très impliqué dans son travail. Son expérience lui permet d’être réactif et saura vous proposer un projet complet, de qualité, le jour même.",
+        `Yohann est un concepteur vendeur impliqué dans son travail.
+Il aime créer une relation privilégiée avec ses clients en faisant preuve d’empathie et d’écoute.
+Son expérience lui permet d’être réactif et saura vous proposer un projet complet, de qualité, le jour même.`,
       specialites: ["Jour de repos le mardi"],
       telephone: "+33 3 81 31 10 00",
       email: "y.thiebaut@ecocuisine-montbeliard.fr",
