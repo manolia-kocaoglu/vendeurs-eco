@@ -251,7 +251,7 @@ Je recommande les yeux fermés !!!`,
       anciennete: 7,
       depuis: 2019,
       description:
-        `Maxime est toujours à l’écoute de ses clients, à un contact agréable, fait preuve de patience et de calme en toutes circonstances !
+        `Maxime est toujours à l’écoute de ses clients, à un contact agréable, fait preuve de patience et de calme en toutes circonstances ! 
 Il incarne la « force tranquille ».`,
       specialites: ["Jour de repos le lundi"],
       telephone: "+33 3 81 31 10 00",
