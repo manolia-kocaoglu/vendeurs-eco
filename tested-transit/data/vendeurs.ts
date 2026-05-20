@@ -56,14 +56,14 @@ Julien est un « communiquant » et aime allier efficacité et convivialité.`
           annee: "",
         },
         {
-          titre: "Appartement haussmannien",
-          description: "Réinterprétation moderne d'une cuisine classique avec moulures et marbre blanc.",
+          titre: "",
+          description: "",
           image: "/cuisines/julien/julien2.PNG",
           annee: "",
         },
         {
-          titre: "Maison contemporaine Plouzané",
-          description: "Cuisine minimaliste sur-mesure avec rangements optimisés du sol au plafond.",
+          titre: "",
+          description: "",
           image: "/cuisines/julien/julien3.PNG",
           annee: "",
         },
@@ -146,9 +146,9 @@ Merci à Eco cuisine d'Andelnans.`,
           date: "",
         },
         {
-          auteur: "Quentin Petite",
+          auteur: "Mine Coree",
           note: 5,
-          texte: "Personnels qui connaissent bien leurs travail, très bon conseils pour l’agencement de la cuisine. Super accueil à l’arrivée et cuisiniste au top! Nous sommes ravis de notre nouvelle cuisine ! Merci encore !",
+          texte: "Je suis absolument ravie de mon expérience avec Monsieur BAGHDADIA. Du début à la fin, tout a été parfaitement maîtrisé. Monsieur BAGHDADIA ( le cuisiniste ) a fait preuve d’un grand professionnalisme, d’une excellente écoute et de conseils très pertinents, en tenant compte à la fois de mes envies et des contraintes techniques. Il m’a aidée tout au long en étant toujours très réactif. ",
           date: "",
         },
         {
@@ -190,7 +190,7 @@ Emilie prend plaisir à mettre en valeur chaque projet comme si c&#39;était le 
         {
           titre: "",
           description: "",
-          image: "/cuisines/emilie/emilie2.jpg",
+          image: "/cuisines/emilie/emilie4.jpg",
           annee: "",
         },
         {
@@ -202,7 +202,7 @@ Emilie prend plaisir à mettre en valeur chaque projet comme si c&#39;était le 
         {
           titre: "",
           description: "",
-          image: "/cuisines/emilie/emilie4.jpg",
+          image: "/cuisines/emilie/emilie2.jpg",
           annee: "",
         },
         {
