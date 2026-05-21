@@ -34,7 +34,7 @@ export interface Avis {
   export const vendeurs: Vendeur[] = [
     {
       slug: "julien-hacquard",
-      prenom: "Julien !!",
+      prenom: "Julien",
       nom: "HACQUARD",
       titre: "Chef des ventes",
       photo: "/images/julien.jpeg",
