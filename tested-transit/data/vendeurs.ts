@@ -355,7 +355,13 @@ Du fait de son expérience et son aisance avec le logiciel de dessin, il vous pr
         {
           titre: "",
           description: "",
-          image: "/cuisines/fred/fred4.jpg",
+          image: "/cuisines/fred/fred4.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/fred/fred5.jpg",
           annee: "",
         },
       ],
