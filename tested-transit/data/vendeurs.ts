@@ -67,6 +67,18 @@ Julien est un « communiquant » et aime allier efficacité et convivialité.`
           image: "/cuisines/julien/julien3.PNG",
           annee: "",
         },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/julien/julien4.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/julien/julien5.jpeg",
+          annee: "",
+        },
       ],
       avis: [
         {
