@@ -127,6 +127,12 @@ Merci à Eco cuisine d'Andelnans.`,
         {
           titre: "",
           description: "",
+          image: "/cuisines/aoued/aoued1.jpg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
           image: "/cuisines/aoued/aoued2.jpg",
           annee: "",
         },
