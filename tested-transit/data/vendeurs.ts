@@ -44,7 +44,7 @@ export interface Avis {
         `Julien est un concepteur vendeur confirmé ayant une écoute active et une maîtrise de son métier.
 Grâce à son expérience, il saura trouver l’implantation correspondante à vos attentes. 
 Julien est un « communiquant » et aime allier efficacité et convivialité.`,
-      specialites: ["Jour de repos le mercredi"],
+      specialites: ["Jour de repos mardi ou mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "j.hacquard@ecocuisine-belfort.fr",
       zone: "Andelnans",
@@ -176,7 +176,7 @@ Merci à Eco cuisine d'Andelnans.`,
         `Emilie aime créer une relation privilégiée avec ses clients en faisant preuve d’empathie et d’écoute.
 Du fait de sa personnalité naturelle, elle attache beaucoup d’importance à la convivialité en créant des moments agréables.
 Emilie prend plaisir à mettre en valeur chaque projet comme si c&#39;était le sien.`,
-      specialites: ["Jour de repos le jeudi"],
+      specialites: ["Jour de repos mardi ou mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "e.mougin@ecocuisine-belfort.fr",
       zone: "Andelnans",
@@ -350,6 +350,12 @@ Du fait de son expérience et son aisance avec le logiciel de dessin, il vous pr
           titre: "",
           description: "",
           image: "/cuisines/fred/fred1.jpg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/fred/fred4.jpg",
           annee: "",
         },
       ],
