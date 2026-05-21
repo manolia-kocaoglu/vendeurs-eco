@@ -532,7 +532,7 @@ Je recommande vivement`,
           note: 5,
           texte: `Délais de livraison respectés.
 J'adore ma cuisine : je la trouve bien pensée et agencée. Les conseils et la conception d'Arnaud sont à la hauteur de mes espérances.
-Très belle réalisation.`,
+Très belle réalisation. `,
           date: "",
         },
       ],
