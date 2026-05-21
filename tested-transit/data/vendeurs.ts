@@ -44,7 +44,7 @@ export interface Avis {
         `Julien est un concepteur vendeur confirmé ayant une écoute active et une maîtrise de son métier.
 Grâce à son expérience, il saura trouver l’implantation correspondante à vos attentes. 
 Julien est un « communiquant » et aime allier efficacité et convivialité.`,
-      specialites: ["Jour de repos mardi ou mercredi"],
+      specialites: ["Jour de repos le mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "j.hacquard@ecocuisine-belfort.fr",
       zone: "Andelnans",
@@ -176,7 +176,7 @@ Merci à Eco cuisine d'Andelnans.`,
         `Emilie aime créer une relation privilégiée avec ses clients en faisant preuve d’empathie et d’écoute.
 Du fait de sa personnalité naturelle, elle attache beaucoup d’importance à la convivialité en créant des moments agréables.
 Emilie prend plaisir à mettre en valeur chaque projet comme si c&#39;était le sien.`,
-      specialites: ["Jour de repos mardi ou mercredi"],
+      specialites: ["Jour de repos le mercredi"],
       telephone: "+33 3 39 53 06 60",
       email: "e.mougin@ecocuisine-belfort.fr",
       zone: "Andelnans",
@@ -407,19 +407,31 @@ Son expérience lui permet d’être réactif et saura vous proposer un projet c
         {
           titre: "",
           description: "",
-          image: "/cuisines/yohann/yohann1.jpg",
+          image: "/cuisines/yohann/yohann1.jpeg",
           annee: "",
         },
         {
           titre: "",
           description: "",
-          image: "/cuisines/yohann/yohann2.jpg",
+          image: "/cuisines/yohann/yohann2.jpeg",
           annee: "",
         },
         {
           titre: "",
           description: "",
-          image: "/cuisines/yohann/yohann3.jpg",
+          image: "/cuisines/yohann/yohann3.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/yohann/yohann4.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/yohann/yohann5.jpeg",
           annee: "",
         },
       ],
@@ -436,13 +448,91 @@ Nous vous recommandons vivement leurs services.`,
         {
           auteur: "Samuela Lisciani",
           note: 5,
-          texte: "Je suis plus que satisfaite de la cuisine choisie chez Ecocuisine. J'ai pu tout choisi, plan de travail, meubles, couleur, poignées, électroménager. Yohann est un vendeur aux petits soins pour ses clients. On a pu adapter la hauteur du plan de travail à ma taille, il m'a aiguillée pour le choix du carrelage. C'est un conseiller au top et à l'écoute, je vous le recommande vivement. La cuisine est de haute qualité. Vous pouvez y aller les yeux fetmés",
+          texte: "Je suis plus que satisfaite de la cuisine choisie chez Ecocuisine. J'ai pu tout choisi, plan de travail, meubles, couleur, poignées, électroménager. Yohann est un vendeur aux petits soins pour ses clients. On a pu adapter la hauteur du plan de travail à ma taille, il m'a aiguillée pour le choix du carrelage. C'est un conseiller au top et à l'écoute, je vous le recommande vivement. La cuisine est de haute qualité. Vous pouvez y aller les yeux fermés",
           date: "",
         },
         {
           auteur: "Lydie CURTIT",
           note: 5,
           texte: `Je recommande ce magasin, ma cuisine est superbe, le montage a été réalisé en un temps record. Une attention particulière à Yohann, qui a été à l'écoute de mes attentes, et m'a bien conseillé.`,
+          date: "",
+        },
+      ],
+      chiffres: [
+        { label: "Clients satisfaits", valeur: "98%" },
+        { label: "Note Google", valeur: "4.9★" },
+        { label: "d'ancienneté", valeur: "20 ans" },
+      ],
+    },
+    {
+      slug: "arnaud-marichy",
+      prenom: "Arnaud",
+      nom: "MARICHY",
+      titre: "Responsable magasin",
+      photo: "/images/arnaud.png",
+      anciennete: 20,
+      depuis: 2006,
+      description:
+        `Arnaud à une grande expérience et maîtrise le métier, évoluant naturellement en tant que directeur de magasin.
+Son esprit créatif ainsi que son expérience lui permettent de concevoir des implantations toutes aussi fonctionnelles qu’esthétiques avec un « zest » d’originalité pour ceux qui le souhaitent.
+Arnaud est soucieux du détail qui fera la différence.`,
+      specialites: ["Jour de repos le mercredi"],
+      telephone: "+33 3 81 31 10 00",
+      email: "y.thiebaut@ecocuisine-montbeliard.fr",
+      zone: "Taillecourt",
+      projets: [
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/arnaud/arnaud1.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/arnaud/arnaud2.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/arnaud/arnaud3.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/arnaud/arnaud4.jpeg",
+          annee: "",
+        },
+        {
+          titre: "",
+          description: "",
+          image: "/cuisines/arnaud/arnaud5.jpeg",
+          annee: "",
+        },
+      ],
+      avis: [
+        {
+          auteur: "Céline Fricker",
+          note: 5,
+          texte: `Merci à Arnaud Marichy pour son accueil et sa bienveillance lors de la conception de notre cuisine et de notre placard ďentrée. Les conseils,l'écoute et la réactivité nous on fait vivre une très belle expérience en confiance. Nous sommes très satisfaits de cette qualité globale.`,
+          date: "",
+        },
+        {
+          auteur: "Barbosa Lucie",
+          note: 5,
+          texte: `Nous avons été accueilli par Arnaud qui a su nous créer une cuisine à la hauteur de nos attentes avec des plans exceptionnels ! Délai de pose respecté
+L’équipe de pose est très professionnel et fait un travail de qualité !
+Je recommande vivement`,
+          date: "",
+        },
+        {
+          auteur: "Evelyne Mollier",
+          note: 5,
+          texte: `Délais de livraison respectés.
+J'adore ma cuisine : je la trouve bien pensée et agencée. Les conseils et la conception d'Arnaud sont à la hauteur de mes espérances.
+Très belle réalisation.`,
           date: "",
         },
       ],
