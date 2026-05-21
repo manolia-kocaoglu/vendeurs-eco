@@ -37,7 +37,7 @@ export interface Avis {
       prenom: "Julien",
       nom: "HACQUARD",
       titre: "Chef des ventes",
-      photo: "/images/julien.jpeg",
+      photo: "/images/julien.jpg",
       anciennete: 18,
       depuis: 2008,
       description:
@@ -314,7 +314,7 @@ Très bon travail par l'équipe de pose. Accueil, vente et très bon suivi de no
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "d'ancienneté", valeur: "8 ans" },
+        { label: "d'ancienneté", valeur: "7 ans" },
       ],
     },
     {
