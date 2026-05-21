@@ -337,19 +337,19 @@ Du fait de son expérience et son aisance avec le logiciel de dessin, il vous pr
         {
           titre: "",
           description: "",
-          image: "/cuisines/fred/fred3.jpg",
+          image: "/cuisines/fred/fred3.jpeg",
           annee: "",
         },
         {
           titre: "",
           description: "",
-          image: "/cuisines/fred/fred2.jpg",
+          image: "/cuisines/fred/fred2.jpeg",
           annee: "",
         },
         {
           titre: "",
           description: "",
-          image: "/cuisines/fred/fred1.jpg",
+          image: "/cuisines/fred/fred1.jpeg",
           annee: "",
         },
         {
@@ -361,7 +361,7 @@ Du fait de son expérience et son aisance avec le logiciel de dessin, il vous pr
         {
           titre: "",
           description: "",
-          image: "/cuisines/fred/fred5.jpg",
+          image: "/cuisines/fred/fred5.jpeg",
           annee: "",
         },
       ],
@@ -476,8 +476,8 @@ Nous vous recommandons vivement leurs services.`,
       nom: "MARICHY",
       titre: "Responsable magasin",
       photo: "/images/arnaud.png",
-      anciennete: 20,
-      depuis: 2006,
+      anciennete: 25,
+      depuis: 2001,
       description:
         `Arnaud à une grande expérience et maîtrise le métier, évoluant naturellement en tant que directeur de magasin.
 Son esprit créatif ainsi que son expérience lui permettent de concevoir des implantations toutes aussi fonctionnelles qu’esthétiques avec un « zest » d’originalité pour ceux qui le souhaitent.
@@ -545,7 +545,7 @@ Très belle réalisation. `,
       chiffres: [
         { label: "Clients satisfaits", valeur: "98%" },
         { label: "Note Google", valeur: "4.9★" },
-        { label: "d'ancienneté", valeur: "20 ans" },
+        { label: "d'ancienneté", valeur: "25 ans" },
       ],
     },
 
