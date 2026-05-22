@@ -110,7 +110,7 @@ Merci à Eco cuisine d'Andelnans.`,
     },
     {
       slug: "aoued-baghdadia",
-      prenom: "Aoued",
+      prenom: "!! Aoued",
       nom: "BAGHDADIA",
       titre: "Concepteur vendeur",
       photo: "/images/aoued.png",
